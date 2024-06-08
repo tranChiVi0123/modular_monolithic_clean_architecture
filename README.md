@@ -1,1 +1,1 @@
-# platform-api
+# Modular monolith with Clean Architecture
