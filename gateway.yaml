@@ -1,0 +1,14 @@
+gateway:
+  gatewayHost: localhost
+  gatewayPort: 8000
+  routes:
+    - name: auth_service
+      host: auth-service
+      targetPort: 8001
+      context: /auth/*proxyPath
+      protocol: http://
+    - name: user_service
+      host: user-service
+      targetPort: 8002
+      context: /user/*proxyPath
+      protocol: http://
