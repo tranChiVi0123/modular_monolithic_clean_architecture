@@ -3,8 +3,8 @@ package initializers
 import (
 	"context"
 
-	"github.com/FlezzProject/platform-api/internal/infrastructure/config"
-	"github.com/FlezzProject/platform-api/internal/initializers/gen"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/infrastructure/config"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/initializers/gen"
 )
 
 func InitializeGateway(ctx context.Context) error {

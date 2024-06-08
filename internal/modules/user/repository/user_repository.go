@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/FlezzProject/platform-api/internal/domain/entity"
-	"github.com/FlezzProject/platform-api/internal/infrastructure/db"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/domain/entity"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/infrastructure/db"
 	"gorm.io/gorm"
 )
 

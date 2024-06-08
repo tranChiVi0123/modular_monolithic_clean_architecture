@@ -3,10 +3,10 @@ package handler
 import (
 	"net/http"
 
-	"github.com/FlezzProject/platform-api/internal/app/presenter"
-	"github.com/FlezzProject/platform-api/internal/infrastructure/iusecase"
-	errors_handler "github.com/FlezzProject/platform-api/pkg/common/errors"
 	"github.com/gin-gonic/gin"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/app/presenter"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/infrastructure/iusecase"
+	errors_handler "github.com/tranChiVi0123/modular_monolithic_clean_architecture/pkg/common/errors"
 )
 
 type AuthHandler struct {
@@ -54,9 +54,9 @@ func (h AuthHandler) Login(ctx *gin.Context) {
 		return
 	}
 
-  ctx.JSON(http.StatusOK, presenter.AuthResponse{
-    Token: authResponse.Token,
-  })
+	ctx.JSON(http.StatusOK, presenter.AuthResponse{
+		Token: authResponse.Token,
+	})
 }
 
 func (h AuthHandler) Logout(ctx *gin.Context) {

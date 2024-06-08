@@ -7,15 +7,15 @@
 package gen
 
 import (
-	"github.com/FlezzProject/platform-api/internal/app/http/handler"
-	"github.com/FlezzProject/platform-api/internal/app/http/middleware"
-	"github.com/FlezzProject/platform-api/internal/infrastructure/config"
-	"github.com/FlezzProject/platform-api/internal/infrastructure/db"
-	"github.com/FlezzProject/platform-api/internal/infrastructure/routers"
-	"github.com/FlezzProject/platform-api/internal/modules/healthz/repository"
-	"github.com/FlezzProject/platform-api/internal/modules/healthz/usecase"
-	repository2 "github.com/FlezzProject/platform-api/internal/modules/user/repository"
-	usecase2 "github.com/FlezzProject/platform-api/internal/modules/user/usecase"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/app/http/handler"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/app/http/middleware"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/infrastructure/config"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/infrastructure/db"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/infrastructure/routers"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/modules/healthz/repository"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/modules/healthz/usecase"
+	repository2 "github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/modules/user/repository"
+	usecase2 "github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/modules/user/usecase"
 )
 
 // Injectors from wire.go:

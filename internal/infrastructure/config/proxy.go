@@ -6,8 +6,8 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	errors_handler "github.com/FlezzProject/platform-api/pkg/common/errors"
 	"github.com/gin-gonic/gin"
+	errors_handler "github.com/tranChiVi0123/modular_monolithic_clean_architecture/pkg/common/errors"
 )
 
 type Proxy struct {

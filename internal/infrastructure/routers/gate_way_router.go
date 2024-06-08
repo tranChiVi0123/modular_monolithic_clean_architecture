@@ -4,9 +4,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/FlezzProject/platform-api/internal/infrastructure/config"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/infrastructure/config"
 )
 
 type GatewayRouter struct {

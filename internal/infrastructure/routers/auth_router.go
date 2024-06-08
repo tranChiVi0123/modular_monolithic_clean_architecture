@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"github.com/FlezzProject/platform-api/internal/app/http/handler"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/app/http/handler"
 )
 
 type AuthRouter struct {

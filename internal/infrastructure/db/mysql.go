@@ -3,7 +3,7 @@ package db
 import (
 	"fmt"
 
-	"github.com/FlezzProject/platform-api/internal/infrastructure/config"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/infrastructure/config"
 	gormMySQLDriver "gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/FlezzProject/platform-api/internal/app/presenter"
-	"github.com/FlezzProject/platform-api/internal/domain/entity"
-	"github.com/FlezzProject/platform-api/internal/domain/irepository"
-	repository "github.com/FlezzProject/platform-api/internal/domain/irepository"
-	jwt_handler "github.com/FlezzProject/platform-api/pkg/common/jwt"
-	"github.com/FlezzProject/platform-api/pkg/common/utils"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/app/presenter"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/domain/entity"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/domain/irepository"
+	repository "github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/domain/irepository"
+	jwt_handler "github.com/tranChiVi0123/modular_monolithic_clean_architecture/pkg/common/jwt"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/pkg/common/utils"
 )
 
 type UserUsecase struct {

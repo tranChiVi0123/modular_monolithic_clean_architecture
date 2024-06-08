@@ -1,6 +1,6 @@
 package irepository
 
-import "github.com/FlezzProject/platform-api/internal/domain/entity"
+import "github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/domain/entity"
 
 type IUserRepository interface {
 	GetExampleUser() (*entity.UserAccount, error)

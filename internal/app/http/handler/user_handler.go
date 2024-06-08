@@ -3,8 +3,8 @@ package handler
 import (
 	"net/http"
 
-	"github.com/FlezzProject/platform-api/internal/infrastructure/iusecase"
 	"github.com/gin-gonic/gin"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/infrastructure/iusecase"
 )
 
 type UserHandler struct {

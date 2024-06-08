@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/FlezzProject/platform-api/internal/initializers"
+	"github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/initializers"
 )
 
 func main() {

@@ -1,22 +1,22 @@
 package usecase
 
-import "github.com/FlezzProject/platform-api/internal/domain/irepository"
+import "github.com/tranChiVi0123/modular_monolithic_clean_architecture/internal/domain/irepository"
 
 type HealthzUsecase struct {
-  healthzRepository irepository.IHealthzRepository
+	healthzRepository irepository.IHealthzRepository
 }
 
 func NewHealthzUsecase(healthzRepository irepository.IHealthzRepository) HealthzUsecase {
-  return HealthzUsecase{
-    healthzRepository: healthzRepository,
-  }
+	return HealthzUsecase{
+		healthzRepository: healthzRepository,
+	}
 }
 
 func (u HealthzUsecase) GetHealthz() (string, error) {
-  healthz, err := u.healthzRepository.GetHealthz()
-  if err != nil {
-    return "", err
-  }
+	healthz, err := u.healthzRepository.GetHealthz()
+	if err != nil {
+		return "", err
+	}
 
-  return healthz, nil
+	return healthz, nil
 }
